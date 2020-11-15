@@ -1,0 +1,43 @@
+
+img {
+    width:  200px;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  body{
+    background-image: url("https://cssauthor.com/wp-content/uploads/2015/10/Old-painted-wood.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.image{
+    width: 4%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+header{
+    background-color:none;
+    height: 5em;
+
+}
+.headtag{
+    float: right;
+    margin-top: 33px;
+    margin-right: 55px;
+   
+    }
+.headtag a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    margin-right: 8px;
+
+}
+.headtag a:hover{
+    background-color:white;
+    color: black;
+    transition: 0.5s;
+}

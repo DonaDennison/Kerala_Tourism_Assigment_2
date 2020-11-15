@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Century Gothic;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://images.unsplash.com/photo-1599632740188-8a4f152a8342?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main{
+    width: 50%;
+    background-color:rgba(192,192,192,0.3);
+    color: white;
+    text-align: center;
+    padding: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    padding: 10px 20px;
+    font-family: Century Gothic;
+    font-size: large;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    background: white;
+    border-radius: 8px;
+}
+.btn:hover{
+    background: white;
+    color: white;
+}
+
